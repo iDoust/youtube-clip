@@ -1,0 +1,19 @@
+# === INGEST ===
+youtube-transcript-api>=0.6.0      # YouTube transcript fetching
+yt-dlp>=2024.0.0                   # Video/audio download dari YouTube
+faster-whisper>=1.0.0              # Transcription (CTranslate2-based Whisper)
+
+# === AI / LLM PROVIDERS ===
+openai>=1.0.0                      # OpenRouter API (OpenAI-compatible, primary LLM)
+google-genai>=1.72.0               # Gemini API (fallback LLM)
+
+# === VISUAL / COMPUTER VISION ===
+opencv-python>=4.8.0               # Face detection (YuNet), video frame processing
+scenedetect[opencv]>=0.6.0         # PySceneDetect — camera cut detection
+
+# === DATA & CONFIG ===
+pydantic>=2.0.0                    # Data models & validation
+python-dotenv>=1.0.0               # .env file loading
+
+# === CLI / UI ===
+rich>=13.0.0                       # Terminal UI (progress bars, tables, colors)
