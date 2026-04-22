@@ -1,6 +1,6 @@
 # === INGEST ===
 youtube-transcript-api>=0.6.0      # YouTube transcript fetching
-yt-dlp>=2024.0.0                   # Video/audio download dari YouTube
+yt-dlp>=2024.0.0                   # Video/audio download from YouTube
 faster-whisper>=1.0.0              # Transcription (CTranslate2-based Whisper)
 
 # === AI / LLM PROVIDERS ===

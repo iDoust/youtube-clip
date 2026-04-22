@@ -348,8 +348,3 @@ Each clip is:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
----
-
-<p align="center">
-  Built with ❤️ by <strong>ViralClip AI</strong>
-</p>
