@@ -94,7 +94,7 @@ youtube-clip/
 ┌──────────────────────────▼──────────────────────────────────────────┐
 │                     STAGE B: VIRAL DETECTION                        │
 │                                                                     │
-│   FullTranscript ──► LLM Analysis (OpenRouter → Gemini fallback)   │
+│   FullTranscript ──► LLM Analysis (OpenRouter → Gemini fallback)    │
 │                          │                                          │
 │              Prompt: skip first 2 min, find complete stories,       │
 │              score virality (0-100), output JSON                    │
@@ -109,10 +109,10 @@ youtube-clip/
 ┌──────────────────────────▼──────────────────────────────────────────┐
 │                   STAGE C+D: RENDER (per clip)                      │
 │                                                                     │
-│   C1: yt-dlp segment download (only 30-90s, +10s buffer)           │
+│   C1: yt-dlp segment download (only 30-90s, +10s buffer)            │
 │       └► cookie retry → FFmpeg direct stream fallback               │
 │                                                                     │
-│   C2: Smart Crop (16:9 → 9:16)                                     │
+│   C2: Smart Crop (16:9 → 9:16)                                      │
 │       ├► PySceneDetect → find camera cuts                           │
 │       ├► YuNet face detection (per scene, multi-sample vote)        │
 │       ├► Scenario A: 1 face → face-anchored center crop             │
